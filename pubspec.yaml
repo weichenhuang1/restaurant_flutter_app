@@ -1,0 +1,18 @@
+#project config file, lists dependencies, assets, and project metadata
+
+name: restaurant_list
+description: A simple Flutter app to list and search restaurants.
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/restaurants.json
